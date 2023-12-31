@@ -1,0 +1,84 @@
+html, body {
+  min-width: 290px;
+  color: black;
+  background-color: #FFFFEC;
+  font-family: Roboto, sans-serif, Arial;
+  line-height: 1.5;
+}
+
+.titulo {
+  font-size: 25px;
+  text-align: center;
+  padding-top: 10px;
+  font-weight: 900;
+}
+
+#main-doc {
+  position: absolute;
+  margin-left: 310px;
+  padding: 20px;
+  margin-bottom: 110px;
+}
+
+main {
+  display: block;
+}
+
+section {
+  display: block;
+}
+
+
+code {
+  display: inline-block; /* Hace que el código sea en línea y ajuste su ancho al contenido */
+  max-width: 35%; /* Ancho máximo del código */
+  padding: 10px; /* Agrega margen alrededor del código */
+  background-color: #F1E4C3; /* Color de fondo del rectángulo */
+  border: 1px solid #ccc; /* Borde del rectángulo */
+  border-radius: 5px; /* Bordes redondeados */
+  margin-bottom: 10px; /* Margen inferior entre bloques de código */
+}
+
+
+#navbar {
+  position: fixed;
+  min-width: 290px;
+  top: 0px;
+  left: 0px;
+  width: 300px;
+  height: 100%;
+}
+
+nav {
+  display: block;
+}
+
+nav > ul > li {
+  padding: 20px 10px 20px 10px;
+  list-style-type: none;
+  border: 1px solid #000;
+  border-radius: 5px;
+  border-bottom: none;
+  margin-right: 15px;
+}
+
+nav > ul > li > a {
+  color: black;
+  text-decoration: none;
+  margin-left: 10px;
+  display: block;
+  
+}
+
+nav > ul > .referencia {
+  border-bottom: 1px solid #000;
+}
+
+p {
+  line-height: 1.5; /* Ajusta este valor según el espacio que desees entre los renglones */
+}
+
+.header {
+  font-weight: 900;
+  font-size: 20px;
+}
